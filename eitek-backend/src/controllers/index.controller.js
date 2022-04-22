@@ -5,7 +5,7 @@ const { v4: uuid } = require("uuid");
 const pool = new Pool({
     host: 'localhost',
     user: 'postgres',
-    password: '010317',
+    password: 'password',
     database: 'Backend',
     port: '5432'
 })
